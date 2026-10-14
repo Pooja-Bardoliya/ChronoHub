@@ -1,0 +1,14 @@
+.product-img{
+    height: 350px;
+    object-fit: cover;
+}
+/* .product-img:hover{
+    opacity: .5;
+} */
+
+.card:hover{
+    transform: scale(1.01,1.01);
+    transition: 0.2s;
+    box-shadow: 10px 10px 10px grey;
+    cursor: pointer;
+}
